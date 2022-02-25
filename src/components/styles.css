@@ -7,10 +7,10 @@
 
 .input_box{
     width: 100%;
-    border-radius: 50px;
     padding: 20px 30px;
     font-size: 25px;
     border: none;
+    border-radius: 50px;
     transition: 0.2s;
     box-shadow: inset 0 0 5px black;
 }
@@ -26,11 +26,11 @@
     height: 50px;
     margin: 12px;
     border-radius: 50px;
-    right: 0px;
     border: none;
-    font-size: 15px;
-    background-color: #2f74c0;
+    right: 0px;
+    font-size: 18px;
     color: white;
+    background-color: #2f74c0;
     transition: 0.2s all;
     box-shadow: 0 0 10px black;
 }
@@ -51,11 +51,15 @@
 .todo_single{
     display: flex;
     justify-content: space-between;
-    border-radius: 5px;
+    color: #080808ea;
     padding: 15px;
     margin-top: 15px;
-    background-color: tomato;
-    color: black;
+    border-radius: 5px;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+    transition: 0.7s;
+}
+.todo_single:hover{
+    transform: scale(1.1);
 }
 
 .todo_single-text{
